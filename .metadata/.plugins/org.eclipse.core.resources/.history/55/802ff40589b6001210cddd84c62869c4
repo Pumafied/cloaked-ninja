@@ -1,0 +1,22 @@
+package Function;
+
+public class Main {
+
+	public static double area(double w, double l){
+		return l*w;
+	}
+
+	public static double area(double l){
+		return l*l;
+	}
+
+	public static double areaTriangle(double h, double b){
+		return (b*h)/2;
+	}
+
+	public static double areaTriangle(double a){
+		double three = Math.pow(3, .5);
+		double square = Math.pow(a, 2);
+		return (three/4)*square;
+	}
+}
