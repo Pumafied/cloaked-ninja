@@ -1,0 +1,9 @@
+package test;
+
+import Function.Main;
+
+public class test {
+	public static void main(String[] args) {
+		System.out.println(Main.quadratic(2, -4, -3));
+	}
+}
