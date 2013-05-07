@@ -107,10 +107,6 @@ public class Main {
 	// MISC FORMULAS //
 
 	public static String quadratic(double a, double b, double c){
-		double neg = (-1* b) - Math.sqrt((Math.pow(b, 2) - (4 * a * c)));
-		double neg2 = neg/2;
-		double pos = (-1* b) + Math.sqrt((Math.pow(b, 2) - (4 * a * c)));
-		double pos2 = pos/2;
-		return "It can be " + neg2 + " or " + pos2;
+		return "It can be " + ((-1* b) - Math.sqrt((Math.pow(b, 2) - (4 * a * c))))/2 + " or " + ((-1* b) + Math.sqrt((Math.pow(b, 2) - (4 * a * c))))/2;
 	}
 }
