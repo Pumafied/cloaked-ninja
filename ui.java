@@ -80,6 +80,7 @@ while(True){
                             System.out.println("You have selected Perimeter of a square ");
                             System.out.println("Please enter the side value of the square ");
                             int side = in.nextLine();
+
                         }
                         case 2: {
                             System.out.println("You have selected Area of a rectangle");
