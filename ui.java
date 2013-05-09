@@ -27,20 +27,23 @@ while(True){
                         case 1: {
                             System.out.println("You have selected Area of a square ");
                             System.out.println("Please enter the side value of the square ");
+                            String menu = in.nextLine();
                             int side = in.nextLine();
                         }
                         case 2: {
                             System.out.println("You have selected Area of a rectangle");
                             System.out.println("Please enter the length value of the rectangle");
-                            String menu = in.nextLine();
-                            int input = Integer.parseInt(menu);
+                            String next = in.nextLine();
+                            int input = Integer.parseInt(next);
                             System.out.println("Please enter the side value of the rectangle");
+                            String next = in.nextLine();
                             int side = in.nextLine();
                             System.out.println();
                         }
                         case 3: {
                             System.out.println("You have selected Area of a triangle");
                             System.out.println("Please enter the side value of the triangle");
+                            String next = in.nextLine();
                             int side = in.nextLine();
                         }
                         case 4: {
@@ -81,11 +84,14 @@ while(True){
                             System.out.println("Please enter the side value of the square ");
                             int side = in.nextLine();
 
+
                         }
                         case 2: {
                             System.out.println("You have selected Area of a rectangle");
-                            System.out.println("Please enter the side value of the rectangle");
-                            int side = in.nextLine();
+                            System.out.println("Please enter the length of the rectangle");
+                            int length = in.nextLine();
+                            System.out.println("Please enter the width of the rectangle");
+                            int width = in.nextLine();
                         }
                         case 3: {
                             System.out.println("You have selected Area of a triangle");
