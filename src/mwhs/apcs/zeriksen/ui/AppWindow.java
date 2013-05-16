@@ -1,6 +1,7 @@
 package mwhs.apcs.zeriksen.ui;
 
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -64,7 +65,7 @@ public class AppWindow implements ActionListener {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 500, 230);
+		frame.setBounds(100, 100, 354, 223);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		JPanel MainPanel = new JPanel();
 		frame.getContentPane().add(MainPanel, BorderLayout.CENTER);
@@ -72,6 +73,7 @@ public class AppWindow implements ActionListener {
 		frame.getRootPane().setBorder(
 				BorderFactory.createLineBorder(Color.GREEN, 2));
 
+        frame.setMinimumSize(new Dimension(320, 250));
 		textField = new JTextField();
 		MainPanel.add(textField, "cell 0 0 1 2,growx");
 		textField.setColumns(10);
